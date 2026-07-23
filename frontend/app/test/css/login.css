@@ -1,0 +1,45 @@
+/* =======================================================
+   LOGIN.CSS - VERSÃO MODERNIZADA (COMPATÍVEL COM TAILWIND)
+   ======================================================= */
+
+/* Alinhamento de textos para inputs de senha/conta */
+.password-input {
+  text-align: center;
+}
+
+/* Garante que o motor consiga injetar estilos de exibição
+   nos modais sem quebrar o layout flexível do Tailwind
+*/
+#login-wrapper .modal-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilização base para os sub-modais quando forem ativados (Enter Game, Options, etc.) */
+#login-wrapper .modal {
+  pointer-events: auto;
+  background-color: rgb(24, 24, 27); /* bg-zinc-900 */
+  border: 1px solid rgb(63, 63, 70);   /* border-zinc-700 */
+  border-radius: 0.375rem;             /* rounded-md */
+  padding: 1.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  color: rgb(231, 229, 228);           /* text-stone-200 */
+  min-width: 320px;
+}
+
+/* Limpeza de propriedades legadas que esmagavam o menu anterior */
+#login-wrapper,
+#login-inner,
+.login-settings,
+.login-version {
+  /* Resets para ceder o controle total das posições ao Tailwind */
+  box-sizing: border-box;
+}

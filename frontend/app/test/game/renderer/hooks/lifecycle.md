@@ -1,0 +1,1 @@
+# Lifecycle do PixiJS (Mount/Unmount)

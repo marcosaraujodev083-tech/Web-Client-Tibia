@@ -1,0 +1,1 @@
+# Exibe HP, MP e dados vitais

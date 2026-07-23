@@ -1,0 +1,1 @@
+# getValidPosition e TEMPLE_POSITION

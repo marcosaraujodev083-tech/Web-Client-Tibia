@@ -1,0 +1,2 @@
+# Ele recebe todos os bytes brutos que é enviado pelo websocket pelo backend, e reenvia para o packet handler. Ele é a esteira.
+sempre avaliar se existe outra responsabilidade inclusa aqui, deve se isolar exatamente a essa função.

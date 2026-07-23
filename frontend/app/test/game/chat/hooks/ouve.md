@@ -1,0 +1,1 @@
+Escuta as mensagens do chat (0x14) e avisos globais do servidor (0x59)
