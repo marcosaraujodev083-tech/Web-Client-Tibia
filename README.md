@@ -2,7 +2,7 @@
 
 > **💡 Nota sobre o Projeto:** Este é um **projeto pessoal desenvolvido exclusivamente para fins de diversão e experimentação tecnológica**. O objetivo é explorar as capacidades modernas da Web (Canvas 2D, WebGL/WebGPU e manipulação de protocolos binários) para criar um cliente web de Tibia adaptado com servidor próprio, rodando direto no navegador sem a necessidade de instalar executáveis pesados.
 
-> ℹ️ *O client original já existia e funcionava em HTML/JavaScript puro. Esta versão é uma recriação completa utilizando tecnologias modernas, altamente customizáveis e com melhor suporte à manutenção.*
+> ℹ️ *O client original já existia e funcionava em HTML/JavaScript puro. Esta versão é uma recriação completa utilizando tecnologias modernas, altamente customizáveis e com melhor suporte à manutenção, a ideia do projeto é um idle, então vamos reduzindo aos poucos opcodes que vem do back-end*
 
 ---
 
